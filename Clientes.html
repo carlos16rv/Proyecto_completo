@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Agenda cita</title>
+<link rel="stylesheet" type="text/css" href="h.css">
+</head>
+<body>
+<div  id="form">
+<form action="guardar.php" method="post">
+	<p>Nombre</p>
+	<label for=nombre>Su nombre</label>
+	<br> 
+	<input type="text" name="nombre" placeholder="nombre" required>
+	<p>Numero de telefono</p>
+	<label for=numero>Su telefono</label>
+	<br> 
+	<input type="text" name="telefono" placeholder="246666666" required>
+	<p>correo</p>
+	<label for="correo">Direccion de correo</label>
+	<br>
+	<input type="email" name="correo" placeholder="example@algo.com" required>
+	<p>Mensaje</p>
+	<label for="mensaje">Su mensaje</label>
+	<br>
+	<textarea name="mensaje" placeholder="Mensaje"required></textarea>
+	<br>
+	<br>
+
+	<input type="submit" name="Enviar">
+</form>
+</div>
+</body>
+</html>

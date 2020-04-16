@@ -1,0 +1,16 @@
+
+.fondox {
+  background-color: hsl(12, 71%, 65%);
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+.centrado{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
